@@ -1,10 +1,13 @@
+[![Go Report Card](https://goreportcard.com/badge/github.com/stsy/go-cleverbot.io)](https://goreportcard.com/report/github.com/stsy/go-cleverbot.io)
+[![GoDoc](https://godoc.org/github.com/stsy/go-cleverbot.io?status.svg)](https://godoc.org/github.com/stsy/go-cleverbot.io)
+
 # cleverbot.io
 
 A Go package for Cleverbot.io.
 
 ## Installation
 ```
-
+go get github.com/stsy/go-cleverbot.io
 ```
 
 ## Usage
