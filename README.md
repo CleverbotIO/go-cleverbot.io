@@ -1,9 +1,8 @@
 [![Go Report Card](https://goreportcard.com/badge/github.com/stsy/go-cleverbot.io)](https://goreportcard.com/report/github.com/stsy/go-cleverbot.io)
 [![GoDoc](https://godoc.org/github.com/stsy/go-cleverbot.io?status.svg)](https://godoc.org/github.com/stsy/go-cleverbot.io)
+[![Join the chat at https://gitter.im/stsy/go-cleverbot.io](https://badges.gitter.im/stsy/go-cleverbot.io.svg)](https://gitter.im/stsy/go-cleverbot.io?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 # cleverbot.io
-
-[![Join the chat at https://gitter.im/stsy/go-cleverbot.io](https://badges.gitter.im/stsy/go-cleverbot.io.svg)](https://gitter.im/stsy/go-cleverbot.io?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 A Go package for Cleverbot.io.
 
