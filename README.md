@@ -8,7 +8,7 @@ A Go package for Cleverbot.io.
 
 ## Installation
 ```
-go get github.com/stsy/go-cleverbot.io
+go get github.com/CleverbotIO/go-cleverbot.io
 ```
 
 ## Usage
@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/stsy/go-cleverbot.io"
+	"github.com/CleverbotIO/go-cleverbot.io"
 )
 
 func main() {

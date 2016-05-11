@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/stsy/go-cleverbot.io"
+	"github.com/CleverbotIO/go-cleverbot.io"
 )
 
 func main() {
