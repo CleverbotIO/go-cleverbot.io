@@ -4,7 +4,7 @@
 
 # cleverbot.io
 
-A Go package for Cleverbot.io.
+A Go wrapper for Cleverbot.io.
 
 ## Installation
 ```
