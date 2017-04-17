@@ -1,4 +1,3 @@
-[![Slack Status](https://slack.cleverbot.io/badge.svg)](https://slack.cleverbot.io)
 [![Go Report Card](https://goreportcard.com/badge/github.com/CleverbotIO/go-cleverbot.io)](https://goreportcard.com/report/github.com/CleverbotIO/go-cleverbot.io)
 [![GoDoc](https://godoc.org/github.com/CleverbotIO/go-cleverbot.io?status.svg)](https://godoc.org/github.com/CleverbotIO/go-cleverbot.io)
 
