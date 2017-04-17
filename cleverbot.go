@@ -9,7 +9,7 @@ import (
 	"net/http"
 )
 
-// baseURL for the cleverbot.io API.
+// API Endpoints.
 const (
 	baseURL   = "https://cleverbot.io/1.0/"
 	createURL = baseURL + "create"
