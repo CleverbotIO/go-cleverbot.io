@@ -10,7 +10,11 @@ import (
 )
 
 // baseURL for the cleverbot.io API.
-const baseURL = "https://cleverbot.io/1.0/"
+const (
+	baseURL   = "https://cleverbot.io/1.0/"
+	createURL = baseURL + "create"
+	askURL    = baseURL + "ask"
+)
 
 // New bot instance.
 // "nick" is optional if you did not specify it, a random one is generated for you.
@@ -27,7 +31,7 @@ func New(user, key, nick string) (s *Session, err error) {
 		return
 	}
 
-	response, err := http.Post(baseURL+"create", "application/json", bytes.NewBuffer(params))
+	response, err := http.Post(createURL, "application/json", bytes.NewBuffer(params))
 	if err != nil {
 		return
 	}
@@ -64,7 +68,7 @@ func (s *Session) Ask(text string) (output string, err error) {
 		return
 	}
 
-	response, err := http.Post(baseURL+"ask", "application/json", bytes.NewBuffer(params))
+	response, err := http.Post(askURL, "application/json", bytes.NewBuffer(params))
 	if err != nil {
 		return
 	}
