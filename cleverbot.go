@@ -19,11 +19,16 @@ const (
 // New bot instance.
 // "nick" is optional if you did not specify it, a random one is generated for you.
 // A successful call returns err == nil.
-func New(user, key, nick string) (s *Session, err error) {
+func New(user, key string, nick ...string) (s *Session, err error) {
+	var sessionName string
+	if len(nick) > 0 {
+		sessionName = nick[0]
+	}
+
 	s = &Session{
 		User: user,
 		Key:  key,
-		Nick: nick,
+		Nick: sessionName,
 	}
 
 	params, err := json.Marshal(s)
